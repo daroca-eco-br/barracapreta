@@ -2,6 +2,8 @@
 hero_area:
   enable : true
   bg_image : "images/header.jpg"
+  video : true
+  bg_video : "https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
   overlay : true
 
 ################### Gallery ###################
@@ -62,7 +64,7 @@ pricing:
 
 ################### Subscription ################
 subscription:
-  enable : true
+  enable : false
   bg_image : "images/subscribe-bg.jpg"
   title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"

@@ -1,0 +1,15 @@
+{{ "<!-- header-img start  -->" | safeHTML }}
+{{ if site.Data.homepage.hero_area.enable }}
+{{ with site.Data.homepage.hero_area }}
+<section id="hero-area" {{ if .overlay }} class="overlay" {{ end }}>
+    {{ if site.Data.homepage.hero_area.video }}
+   <div class="hero-video-overlay-filter"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="overlay hero-video">
+        <source src="{{ .bg_video | absURL }}" type="video/mp4">
+    </video>
+    {{ else }}
+  <img class="img-responsive" src="{{ .bg_image | absURL }}">
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}

@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/restaurant/"
+baseURL = "https://www.barracapreta.com.br/"
 languageCode = "en-us"
-title = "Restaurant Hugo"
+title = "Barraca Preta"
 theme = "restaurant-hugo"
 summaryLength = "10"
 paginate = 4
@@ -41,12 +41,12 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "Home"
+name = "Inicio"
 URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "About Us"
+name = "Sobre"
 URL = "about-us"
 weight = 2
 
@@ -56,8 +56,8 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Price"
-URL = "price"
+name = "Cardápio"
+URL = "menu"
 weight = 4
 
 [[menu.main]]
@@ -66,7 +66,7 @@ URL = "subscribe"
 weight = 5
 
 [[menu.main]]
-name = "Contact Us"
+name = "Contato"
 URL = "contact-us"
 weight = 6
 
